@@ -24,3 +24,11 @@ jobs:
 
       - name: Update version file
         run: echo "${{ env.TAG_VERSION }}" > .version
+
+      - name: Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update version file with tag"
+          git push origin main
