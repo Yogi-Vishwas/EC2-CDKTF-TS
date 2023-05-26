@@ -16,3 +16,5 @@ jobs:
           skip-commit: "true"
           version-file: "./.version"
           version-path: ""
+          tag-prefix: ""
+          output-file: "false"
