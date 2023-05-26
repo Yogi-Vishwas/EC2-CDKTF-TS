@@ -16,6 +16,9 @@ jobs:
       - name: Set GIT_TAG
         run: |
           echo "VERSION=$(cat .version | tr -d " \t\n\r")" >> $GITHUB_ENV
+      - name: Test
+        run: |
+          echo "github repo: ${{github.repository}}, github commmit: ${{github.sha}}"
       - name: git-tag
         uses: pkgdeps/git-tag-action@v2.0.1
         with:
