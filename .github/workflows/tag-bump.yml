@@ -20,7 +20,7 @@ jobs:
           tag-prefix: ""
       - name: Extract tag version
         id: extract-tag-version
-        run: echo "TAG_VERSION=$(echo ${{ steps.changelog.outputs }})" >> $GITHUB_ENV
+        run: echo "TAG_VERSION=$(echo ${{ steps.changelog.outputs.tag }})" >> $GITHUB_ENV
 
       - name: Update version file
         run: echo "${{ env.TAG_VERSION }}" > .version
