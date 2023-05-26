@@ -10,9 +10,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Conventional Changelog Action
+        id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.github_token }}
           skip-commit: "true"
           version-file: "./.version"
           tag-prefix: ""
+
+      - name: Extract Tag Version
+        id: extract-tag-version
+        run: echo "::set-output name=tag-version::$(echo ${{ steps.changelog.outputs.next_tag }} | sed 's/v//')"
+
+      - name: Update version file
+        run: echo "${{ steps.extract-tag-version.outputs.tag-version }}" > .version
