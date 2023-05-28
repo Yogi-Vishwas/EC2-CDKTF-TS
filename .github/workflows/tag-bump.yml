@@ -18,11 +18,3 @@ jobs:
           version-path: ""
           tag-prefix: ""
           release-count: 0
-
-      - name: Push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update version file with tag"
-          git push origin main
