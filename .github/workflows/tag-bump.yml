@@ -18,6 +18,7 @@ jobs:
           version-file: "./.version"
           version-path: ""
           tag-prefix: ""
+          release-count: 0
 
       - name: Push changes
         run: |
