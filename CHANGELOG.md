@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/compare/0.4.9...0.5.0) (2023-05-28)
+
+
+### Features
+
+* **core:** Added github release ([d020816](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/d0208163d474cdfa55d18e57ff81592dc98f0b0f))
+
+
+
 ## [0.4.9](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/compare/0.4.8...0.4.9) (2023-05-28)
 
 
