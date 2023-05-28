@@ -1,16 +1,20 @@
-## [0.4.8](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/compare/0.4.7...0.4.8) (2023-05-28)
+## [0.4.9](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/compare/0.4.8...0.4.9) (2023-05-28)
 
 
 ### Bug Fixes
 
 * added push ([5791c26](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/5791c26b9bcbdfe980e01bddca4fda9cefc6e671))
+* **core:** Added version.json ([a91acb0](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/a91acb0cb8d8586ac906fef7e8a05c8c3dec0348))
+* **core:** Added version.json in actions ([ec45b42](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/ec45b42ce33154a378a8ee097cffcbc4afbd8c10))
 * **core:** Final changes ([6711188](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/6711188dc7d0acc46ba137b3f4aa3361d8d874a1))
 * **core:** Fix number of releases ([3a53723](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/3a5372399a2d0ec8b3e9cd00ca0fadb7a8cf8787))
 * **core:** fixed ([45c62ec](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/45c62ecd5adf32f9462e91e64549843a49bf84e5))
 * **core:** Fixed changelog ([dd70f14](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/dd70f14e4b7140699a46df8c143e654a5355ff6a))
 * **core:** fixed something ([72424d8](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/72424d844b91992bba439a9f3d227a56ed7947eb))
 * **core:** Fixed tag-bump.yml ([26b6731](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/26b67310b41ca9382675e21ee2e9f20f7552bb9b))
+* **core:** skip-commit- true ([7107e58](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/7107e5825107f6d7dfcf59913310c136959f056a))
 * **core:** Updated version file ([6e3ac67](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/6e3ac6783d25694e0d3cf8aa8da4e174772b0bda))
+* **core:** Updated version.json ([69c7337](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/69c7337a3dc05e9309134e64e1bd018768395ee8))
 * permissions added ([bc84ecf](https://github.com/Yogi-Vishwas/EC2-CDKTF-TS/commit/bc84ecf7618b28f7bd9b2958ef340c3e0c36b0b4))
 
 
