@@ -14,7 +14,7 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.github_token }}
-          version-file: "./.version"
-          version-path: ""
+          version-file: "./version.json"
+          version-path: "version"
           tag-prefix: ""
           release-count: 0
