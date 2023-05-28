@@ -1,11 +1,11 @@
-name: Tag-Bump
+name: Automate Tags
 on:
   push:
     branches:
       - main
 jobs:
-  ## tag
-  tag-bump:
+  #This job will bump tag number based on the (conventional) commit message.
+  update-tag:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -16,15 +16,8 @@ jobs:
           github-token: ${{ secrets.github_token }}
           skip-commit: "true"
           version-file: "./.version"
+          version-path: ""
           tag-prefix: ""
-          output-file: "false"
-
-      - name: Extract tag version
-        id: extract-tag-version
-        run: echo "TAG_VERSION=$(echo ${{ steps.changelog.outputs.tag }})" >> $GITHUB_ENV
-
-      - name: Update version file
-        run: echo "${{ env.TAG_VERSION }}" > .version
 
       - name: Push changes
         run: |
