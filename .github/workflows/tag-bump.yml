@@ -17,6 +17,8 @@ jobs:
           version-file: "./version.json"
           version-path: "version"
           tag-prefix: ""
+          git-user-name: "GitHub Action"
+          git-user-email: "action@github.com"
           git-message: "chore(release): {version}"
 
       - name: Create Release
